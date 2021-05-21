@@ -1,0 +1,17 @@
+{
+  "name": "design-patterns-using-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "nodemon src/app.js",
+    "build": "tsc -p .",
+    "lint": "tslint 'src/**/*.ts'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tslint": "^6.1.3"
+  }
+}
